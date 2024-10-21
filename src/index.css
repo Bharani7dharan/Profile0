@@ -1,0 +1,35 @@
+*{
+  
+  list-style: none;
+}
+
+.content{
+  border: 1px solid black;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 6px 2px 2px black;
+  padding: 10px;
+  background-color: rgb(165, 165, 165);
+  transition: 2s ease-in;
+  
+}
+.content:hover{
+  transform: rotateX('30deg'),rotateY('40deg');
+}
+
+.content>h2{
+  color: white;
+  text-shadow: 1px 2px 2px black;
+  
+}
+
+body{
+  background-color: rgb(226, 226, 226);
+}
+
+.image{
+  /* border: 1px solid black; */
+  box-shadow: 6px 2px 2px black;
+  border-radius: 10px;
+ 
+}
